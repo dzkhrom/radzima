@@ -1809,6 +1809,7 @@ a.section-region-body-content  {
 }
 .journal-box-border {
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
