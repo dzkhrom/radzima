@@ -176,9 +176,11 @@ header {
   transition: width 0.5s ease-in;
 }
 
-.header-bottom nav ul li a:hover, .header-bottom nav ul li a:hover::before {
+.header-bottom nav ul li a:hover{
   color: #cc3e44;
-  width: 100%;
+}
+.header-bottom nav ul li a:hover::before {
+    width: 100%;
 }
 .header-bottom-map {
   color: #e9e9e9;
@@ -1507,15 +1509,26 @@ slider {
 
 /*==============
   REGIONS PAGE
-  =============*/
+
+     BREST
+=============*/
 
 .region-page-section-inform, .region-page-section-inform-container, .region-page-section-about-container, .region-page-section-about, .chapter-header, .chapter-link {
   display: flex;
   -js-display: flex;
 }
-.brest-page-image {
+.regions-page-image  {
   height: 60vh;
 }
+.region-page-section-map svg g {
+  visibility: hidden;
+}
+/*==============
+  REGIONS PAGE
+
+     BREST
+=============*/
+
 .red.brest-visible {
   visibility: hidden;
 }
@@ -1771,6 +1784,30 @@ a.section-region-body-content  {
   font-family: 'Noto Serif';
   font-size: 1.25em;
   font-weight: 700;
+}
+
+/*==============
+  REGIONS PAGE
+
+     GOMEL
+=============*/
+
+
+.gomel-main-image {
+  display: flex;
+  -js-display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-image: url('../images/gomel.jpg');
+  background-position: 50% 100%;
+  background-size: cover;
+  height: 100%;
+  font-size: 4.4em;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 16px rgba(0,0,0,0.5);
 }
 
 /* =================
