@@ -303,8 +303,7 @@ $(document).ready(function() {
         $(window).resize(function() {
           if ($(window).width() > 991) {
             $('.header-bottom .main-menu>ul').css('visibility', 'visible');
-          } else {
-            $('.header-bottom .main-menu>ul').css('visibility', 'hidden');
+          } 
           }
         });
 
