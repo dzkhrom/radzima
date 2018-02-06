@@ -304,7 +304,6 @@ $(document).ready(function() {
           if ($(window).width() > 991) {
             $('.header-bottom .main-menu>ul').css('visibility', 'visible');
           } 
-          }
         });
 
         $(".mobile-menu-button").click(function() {
